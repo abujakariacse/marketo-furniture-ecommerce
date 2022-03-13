@@ -63,3 +63,8 @@ section{
     padding: 100px;
     background-color: #2ED3BD;
 }
+footer{
+    background-color: #ff6900;
+    padding: 30px;
+    color: white;
+}
