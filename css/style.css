@@ -51,3 +51,11 @@ section{
 .second-card{
     margin-top: 110px;
 }
+.col{
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.397);
+    border-radius: 5px;
+}
+#elementor-container{
+    margin-top: 4%;
+    margin-left: 15%;
+}
