@@ -102,7 +102,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/banner1_img-min.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-md-block" id="caption-first">
+                        <div class="carousel-caption" id="caption-first">
                             <h4 class=" text-warning"><i class="fa-solid fa-gift"></i> Up to 30% off</h4>
                             <h1>Let's Make Home Happy Place</h1>
                             <p class="alignment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
@@ -162,11 +162,11 @@
         <!-- Products section -->
         <section class="container-fluid">
             <div class="container">
-                <div class="row g-4 ">
-                    <div class="col-6 col-sm-6 col-md-4 col-lg-6 col-xl-6 col-xxl-6">
-                        <h5 class="section-title text-danger">New Arrival</h5>
+                <div class="d-flex g-4 align-items-center justify-content-between">
+                    <div>
+                        <h5 class="text-danger section-sub-title">New Arrival</h5>
                     </div>
-                    <div class="d-flex col-6 col-sm-6 col-md-8 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="d-flex">
                         <h5 class="section-sub-title text-info">On Sell</h5>
                         <h5 class="section-sub-title text-info">Hot Sell</h5>
                         <h5 class="section-sub-title text-info">Trend</h5>
@@ -220,7 +220,7 @@
         </section>
         <section class="container" id="elementor-container">
             <div class="row g-4 p-3">
-                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex elementor-item">
                     <div>
                         <span class="fs-1 text-warning"><i class="fa-solid fa-car"></i></span>
                     </div>
@@ -229,7 +229,7 @@
                         <span class="text-secondary">from $78</span>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex elementor-item">
                     <div>
                         <span class="fs-1 text-warning"><i class="fa-solid fa-user-group"></i></i></span>
                     </div>
@@ -238,7 +238,7 @@
                         <span class="text-secondary">feedbacks</span>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex elementor-item">
                     <div>
                         <span class="fs-1 text-warning"><i class="fa-solid fa-arrow-rotate-right"></i></span>
                     </div>
@@ -247,7 +247,7 @@
                         <span class="text-secondary">for free return</span>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex elementor-item">
                     <div>
                         <span class="fs-1 text-warning"><i class="fa-solid fa-hand-holding-dollar"></i></span>
                     </div>
@@ -256,7 +256,7 @@
                         <span class="text-secondary">secure system</span>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex elementor-item">
                     <div>
                         <span class="fs-1 text-warning"><i class="fa-solid fa-headphones-simple"></i></span>
                     </div>
@@ -276,7 +276,7 @@
                 <p class="text-danger">View Articles</p>
             </div>
             <div class="container row g-4">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 news">
                     <div class="card" style="width: 18rem;">
                         <img src="images/seating.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -294,7 +294,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 news">
                     <div class="card" style="width: 18rem;">
                         <img src="images/cup.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -313,7 +313,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 news">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/cup.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <span class="card-title text-primary">Speaker</span>
+                            <h4 class="card-text">Exterior Ideas: 10 Colored Fiber Garden Seats</h4>
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div><span><i class="fa-solid fa-message"></i></span>
+                                    <span>0</span>
+                                </div>
+                                <div>
+                                    <span><i class="fa-solid fa-clock"></i></span>
+                                    <span>May 1, 2018</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 last-news">
                     <div class="card" style="width: 18rem;">
                         <img src="images/pen.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -371,7 +390,7 @@
                     <span><img src="images/norton_av_logo1.png" alt=""> <img src="images/mcAfee_logo1.png"
                             alt=""></span>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 quick-link">
                     <h6>Quick Links</h6>
                     <p class="text-secondary">Support Center</p>
                     <p class="text-secondary">Term & Conditions</p>
@@ -396,15 +415,16 @@
         </section>
     </main>
     <footer class="container-fluid">
-        <div class="row container ">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <p>© Copyright By Abu Jakaria 2022</p>
+        <div class="row container footer-section">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 footer-text">
+                <p class="footer-text">© All Right Reserved By Abu Jakaria 2022</p>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <p>Allow payment base on:
-                <p class="fs-4"><i class="fa-brands fa-amazon-pay"></i> <i class="fa-brands fa-alipay"></i> <i
-                        class="fa-brands fa-apple-pay"></i> <i class="fa-brands fa-cc-mastercard"></i> <i
-                        class="fa-brands fa-cc-visa"></i></p>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 footer-text">
+                <p class="footer-text">Allow payment base on:
+                <p class="fs-4 footer-text"> <i class="fa-brands fa-amazon-pay"></i> <i class="fa-brands fa-alipay"></i>
+                    <i class="fa-brands fa-apple-pay"></i> <i class="fa-brands fa-cc-mastercard"></i> <i
+                        class="fa-brands fa-cc-visa"></i>
+                </p>
                 </p>
             </div>
         </div>

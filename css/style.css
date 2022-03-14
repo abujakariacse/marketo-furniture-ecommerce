@@ -22,17 +22,7 @@ main{
 section{
     margin-bottom: 30px;
 }
-#caption-second{
-    margin-left: 40%;
-    margin-bottom: 10%;
-}
-#caption-first{
-    margin-right: 45%;
-    margin-bottom: 10%;
-}
-#caption-last{
-    margin-bottom: 20%;
-}
+
 .section-sub-title{
     padding: 10px;
 }
@@ -67,4 +57,67 @@ footer{
     background-color: #ff6900;
     padding: 30px;
     color: white;
+}
+
+/* Media Query */
+/* Mobile Responsive */
+@media only screen and (max-width:688px) {
+    body{
+        overflow-x: hidden;
+    }
+  .carousel-item img{
+      height: 500px;
+  }
+  .carousel-caption{
+      margin: 0;
+      padding: 0;
+  }
+  body{
+      margin: 0;
+      padding: 0;
+  }
+ .section-sub-title {
+      font-size: 12px;
+      margin: 0;
+  }
+  #products-section{
+      margin: 0;
+      margin-left: 5%;
+  }
+  .footer-section p{
+      text-align: center;
+  }
+  .marketpress-section{
+     margin-left: 0px;
+  }
+
+}
+
+
+/* Desktop Responsive */
+@media only screen and (min-width:992px) and (max-width:1920px) {
+    body{
+        overflow-x: hidden;
+    }
+    main{
+        overflow-x: hidden;
+    }
+
+#caption-second{
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+#caption-first{
+    margin-right: 45%;
+    margin-bottom: 10%;
+}
+#caption-last{
+    margin-bottom: 20%;
+}
+.last-news{
+    display: none;
+}
+.footer-text{
+    margin-left: 35%;
+}
 }
